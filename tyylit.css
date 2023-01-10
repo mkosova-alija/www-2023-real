@@ -1,0 +1,86 @@
+body {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+header, aside {
+
+    background-color: #ededed;
+
+}
+
+header{
+    /*padding: 2em 1em 0.4em 1em;*/
+    padding: 2em;
+    font-size: 24px;
+    font-weight: bold;
+ 
+}
+
+h1, h2, h3, h4 {
+ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+
+}
+
+nav a {
+
+    text-decoration: none;
+
+ }
+
+ nav li {
+    display: inline;
+    margin: 20px;
+ }
+
+ article {
+
+    width: 60%;
+    background-color: antiquewhite;
+    float: left;
+ }
+
+ aside{
+    width: 40%;
+    float: right;
+
+ }
+
+ article p{
+    font-weight: none;
+
+ }
+
+ footer {
+    float: none;
+    clear: both;
+    padding: 4em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: chocolate;
+
+ }
+
+ .container{
+    width: 1140px;
+    margin: 10px auto;
+ }
+
+ @media only screen and (max-width: 768px) {
+   /* For mobile phones: */
+  
+  article {
+   float:none;
+    width: 100%;}
+
+    aside{
+
+   float:none;
+    width: 100%;
+    }
+
+ }
+
